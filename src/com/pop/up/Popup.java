@@ -20,8 +20,8 @@ public class Popup extends Activity {
 		setContentView(R.layout.popup);
 		
 		//these causes null pointer exceptions
-		PopupWindow foo = new PopupWindow();
-		foo.Popup(); //creates the popup immediately
+		//PopupWindow foo = new PopupWindow();
+		//foo.Popup(); //creates the popup immediately
 		initPopup();
 	}
 	
@@ -64,7 +64,7 @@ public class Popup extends Activity {
 
 		locationName.setText("Android");
 		locationDescription
-				.setText("The second Android Developer Challenge has begun! In this contest, real-world users will help review and score applications"						
-						+ "and the overall winner will take away $250,000. The deadline for submitting an application to the contest is August 31, 2009.");
+				.setText("TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST "						
+						+ "MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST MORE TEST ");
 	}
 }
